@@ -1,4 +1,5 @@
-pocsuite3: 远程漏洞测试框架
+# pocsuite3-goby: 远程漏洞测试框架
+
 ## 0x01 部署 pocsuite3
 还请按照本文档的方式来部署 pocsuite3，避免出现不必要的环境问题
 
@@ -42,7 +43,7 @@ which pocsuite
 ![image](https://i.loli.net/2021/03/04/PWK8rx2YLwoBmbQ.png)
 
 ## 0x03 功能建议或 bug 反馈
-goby pocsuite3 插件建议和反馈请前往 [https://github.com/gobysec/GobyExtension/issues](https://github.com/gobysec/GobyExtension/issues)  
+goby pocsuite3 插件建议和反馈请前往 [https://github.com/zer0yu/pocsuite3-goby/issues](https://github.com/zer0yu/pocsuite3-goby/issues)  
 pocsuite3 建议和反馈请前往 [https://github.com/knownsec/pocsuite3/issues](https://github.com/knownsec/pocsuite3/issues)  
 
 ## 0x04 后续开发计划
