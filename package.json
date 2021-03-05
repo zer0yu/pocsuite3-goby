@@ -1,0 +1,41 @@
+{
+    "name": "pocsuite3",
+    "publisher": "z3r0yu",
+    "description": "pocsuite3 - 远程漏洞测试框架",
+    "version": "0.1.0",
+    "icon": "./src/assets/pocsuite3-logo.png",
+    "engines": "1.8.230",
+    "initEvents": "",
+    "main": "./src/extension.js",
+    "contributes": {
+      "configuration": {
+        "pocsuite_location": {
+          "type": "string",
+          "default": "/usr/local/bin/pocsuite",
+          "description": "[INPUT] Plz input pocsuite command path (like:/Users/zeroyu/anaconda3/bin/pocsuite)",
+          "fromDialog": true
+        }
+      },
+        "views": {
+            "ipDetail": {
+              "bannerTop": [
+                {
+                  "command": "poc_scan",
+                  "title": "pocsuite",
+                  "icon": "./src/assets/pocsuite3-logo.png"
+                }
+              ]
+            },
+            "webfinder": [
+                {
+                    "command": "poc_scan",
+                    "icon": "./src/assets/pocsuite3-logo.png",
+                    "title": "pocsuite"
+                }
+            ]
+        }
+    },
+    "scripts": {},
+    "devDependencies": {},
+    "dependencies": {}
+}
