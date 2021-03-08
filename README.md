@@ -21,14 +21,16 @@ sudo su # 切换进入root权限
 pip install pocsuite3
 ```
 
-插件目前在 macOS 和 Kali Linux 通过了测试
+插件目前在 Windows, macOS 和 Kali Linux 通过了测试
 
 ## 0x02 pocsuite3 插件
 刚开始进入的话你可以在插件设置里面配置一下`pocsuite`的命令执行路径。
 PS:
 ```bash
-# 不知道pocsuite路径的可以执行如下命令进行查看
+# 对于 macOS 和 Kali Linux不知道pocsuite路径的可以执行如下命令进行查看
 which pocsuite
+# 对于 Windows 不知道pocsuite路径的可以执行如下命令进行查看
+Get-Command pocsuite
 ```
 ![image](https://i.loli.net/2021/03/04/rfEcACXBdQsN9ZJ.png)
 
